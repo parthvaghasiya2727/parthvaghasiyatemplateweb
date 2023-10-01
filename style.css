@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 3px;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    box-shadow: 10px 1px 5px 6px rgb(199, 196, 196);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar .logo a{
+    margin-left: 2rem;
+}
+
+.nav a{
+    padding: 1rem;
+}
+
+.nav a:hover{
+    background-color: rgb(207, 201, 201);
+    padding: 0.6rem;
+}
+
+.logo a:hover{
+    background-color: rgb(207, 201,201);
+    padding: 0.5rem;
+}
+
+.content img{
+    height:800px;
+    width: 100%;
+    max-width: 1600px;
+    min-width: 500px;
+    margin-bottom: 60px;
+}
+
+.large-text{
+    position: absolute;
+    bottom: 0.1px;
+    left: 20px;
+    font-size: 45px;
+    color: rgb(168, 148, 148);
+}
+
+.aboutsection{
+    display: flex;
+}
+
+.about_section img{
+    width: 50%;
+    height: 300px;
+}
+
+#text_countainer{
+    width: 50%;
+    height: auto;
+}
+
+.aboutsection{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.box-1{
+    width: 50%;
+    margin-left: 14rem;
+}
+
+.box-1 img{
+    height: 500px;
+}
+
+.box-2{
+    height: 200px;
+    width: 50%;
+    margin-right: 16rem;
+}
+
+.menusection{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.box-3{
+    height: 200px;
+    width: 50%;
+    margin-left: 14rem;
+}
+
+.box-4 img{
+    height: 550px;
+}
+
+.box-4{
+    width: 50%;
+    margin-right: 14rem;
+}
+
+hr{
+    margin: 4rem 7rem;
+    color: rgb(220, 209, 209);
+}
+
+.contact{
+    margin: 3rem 7rem;
+}
+
+input[type=text]{
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid rgb(208, 199, 199);
+    margin-bottom: 2rem;
+    height: 40px;
+}
+
+input[type=number]{
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid rgb(208, 199, 199);
+    margin-bottom: 2rem;
+    height: 40px;
+}
+
+input[type=datetime-local]{
+    width: 100%;
+    border-bottom: 2px solid rgb(208, 199, 199);
+    margin-bottom: 2rem;
+    height: 40px;
+}
+
+button{
+    padding: 1rem 1rem;
+    background-color: lightgray;
+}
+
+footer{
+    background-color: lightgray;
+    padding:2rem 1.5rem
+}
+
+
+footer p{
+    text-align: center;
+}
+
+
+
